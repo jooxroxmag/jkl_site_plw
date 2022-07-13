@@ -63,7 +63,7 @@ nav > a:hover{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3%;
-    text-align: justify;jpg "
+    text-align: justify;
 }
 .nm{
     float: left;
@@ -103,8 +103,8 @@ html, body{
     animation: flutuando .5s ease-in-out 0s infinite alternate;
   }
   
-  @keyframes flutuando{
-    from { bottom: 0;}
+  @keyframes flutuando {
+    from { bottom: 0;     }
     to   { bottom: -30px; }
 }
 
@@ -227,6 +227,7 @@ footer >  nav > a{
     margin-right: 3%;
     font-size: 25px;
 }
+
 #video{
     margin-top: 5%;
     margin-left: 35%;
