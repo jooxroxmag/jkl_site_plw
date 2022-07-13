@@ -63,7 +63,7 @@ nav > a:hover{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3%;
-    text-align: justify;
+    text-align: justify;jpg "
 }
 .nm{
     float: left;
@@ -103,7 +103,7 @@ html, body{
     animation: flutuando .5s ease-in-out 0s infinite alternate;
   }
   
-  @keyframes flutuando {
+  @keyframes flutuandojpg " {
     from { bottom: 0;     }
     to   { bottom: -30px; }
 }
@@ -206,9 +206,7 @@ html, body{
     border: 1px white solid;
 }
 
-.ggimg{        <div class="egg">
-            <img src="95ejnfoj34p71.jpg">
-        </div>
+.ggimg{
     margin-left: 25%;
     width: 50%;
     height: 50%;
@@ -224,18 +222,12 @@ footer >  nav > a{
     color: white;
     text-decoration: none;
     display: inline;
-    font-family: 'Oswald', san        <div class="egg">
-            <img src="95ejnfoj34p71.jpg">
-        </div>s-serif;
+    font-family: 'Oswald', sans-serif;
     margin-left: 10%;
     margin-right: 3%;
     font-size: 25px;
 }
 #video{
     margin-top: 5%;
-    margin-left: 30%;
-}
-
-#egg{
-   float: right;
+    margin-left: 35%;
 }
