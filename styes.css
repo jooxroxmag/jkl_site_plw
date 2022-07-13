@@ -206,7 +206,9 @@ html, body{
     border: 1px white solid;
 }
 
-.ggimg{
+.ggimg{        <div class="egg">
+            <img src="95ejnfoj34p71.jpg">
+        </div>
     margin-left: 25%;
     width: 50%;
     height: 50%;
@@ -222,12 +224,18 @@ footer >  nav > a{
     color: white;
     text-decoration: none;
     display: inline;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', san        <div class="egg">
+            <img src="95ejnfoj34p71.jpg">
+        </div>s-serif;
     margin-left: 10%;
     margin-right: 3%;
     font-size: 25px;
 }
 #video{
-    text-align: center;
+    margin-top: 5%;
     margin-left: 30%;
+}
+
+#egg{
+   float: right;
 }
