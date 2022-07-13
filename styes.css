@@ -104,7 +104,7 @@ html, body{
   }
   
   @keyframes flutuandojpg " {
-    from { bottom: 0;     }
+    from { bottom: 0px;     }
     to   { bottom: -30px; }
 }
 
