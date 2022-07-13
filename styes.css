@@ -1,0 +1,229 @@
+nav{
+    background-color: rgb(41, 41, 41);
+    border: 1px white solid;
+    margin-top: 0%;
+    position: sticky;
+}
+body > nav > a{
+    color: white;
+    text-decoration: none;
+    display: flexbox;
+    margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 23%;
+    margin-right: 19%;
+    padding: 7px;
+}
+
+nav > a:hover{
+    color: red;
+    text-decoration: underline red;
+}
+
+.pst:hover{
+    color: red;
+    text-decoration: underline red;
+}
+
+#ic-pgp{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-right: 3%;
+    margin-left: 37%;
+}
+#Introducao{
+    color: white;
+    border: 1px white solid;
+    display: inline-block;
+    background-color: rgba(19, 19, 19, 0.925);
+    flex-direction: column;
+    position: sticky;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    text-align: justify;
+}
+.icone-usu{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    float: left;
+}
+.pst{
+    background-color: rgba(41, 41, 41, 0.717);
+    font-family: 'Ibarra Real Nova', serif;
+    color: white; 
+    border: 1px white solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    text-align: justify;
+}
+.nm{
+    float: left;
+    font-size: 40px;
+}
+.dt{
+    float: right;
+    margin-right: 10px;
+    font-size: 31px;
+}
+.ct{
+    clear: both;
+    margin-left: 8%;
+    font-size: 30px;
+}
+
+html, body{
+    background-image: url(fundo/1bd7667b-80fb-4f92-9e8c-2161e1d03968.jpg);
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh; 
+    background-size: cover;
+}
+
+.h1{
+    color:white;
+    flex: center;
+    text-align: center;
+}
+
+#artc-1{
+    margin-top: 20px;
+}
+
+#ic-pgp {
+    position: relative;
+    animation: flutuando .5s ease-in-out 0s infinite alternate;
+  }
+  
+  @keyframes flutuando {
+    from { bottom: 0;     }
+    to   { bottom: -30px; }
+}
+
+#HCB_comment_box{
+    background-color: rgba(182, 176, 176, 0.502);
+    border: 1px white solid;
+}
+#HCB_comment_box p.error{
+    border:4px solid #f88;
+    background-color:#fee;color:#800
+}
+#HCB_comment_box textarea,#HCB_comment_box input.text{
+    border:1px solid #ddd;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    background:url(bg.png) repeat-x
+}
+#HCB_comment_box .hcb-wrapper-half{
+    display:block;
+    width:50%;
+    float:left}
+#HCB_comment_box .hcb-wrapper{
+    clear:both;
+    margin-bottom:.5em}
+#HCB_comment_box input.text{
+    display:block;
+    width:97%
+}
+
+#HCB_comment_box input.submit{
+    margin:0 7px 3px 0;
+    background-color:#f5f5f5;
+    border:1px solid #ccc;
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+    font-family:lucida grande,Tahoma,Arial,Verdana,sans-serif;
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:700;
+    color:#ffffff;
+    cursor:pointer;
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px
+}
+#HCB_comment_box input.submit:hover{
+    background-color:#dff4ff;
+    border:1px solid #c2e1ef;
+    color:#369
+}
+#HCB_comment_box span.home-desc{
+    opacity:.4
+}
+#HCB_comment_box div.comment{
+    border-top:1px solid #eee;
+    margin-bottom:.5em
+}
+.hcb-mod b{
+    color:#00008b
+}
+.hcb-link{
+    color:blue;
+    text-decoration:underline
+}
+
+.clique{
+    font-size: 20px;
+    color: rgb(205, 34, 34);
+}
+
+.temas{
+    background-color: rgba(41, 41, 41, 0.717);
+    font-family: 'Ibarra Real Nova', serif;
+    color: white; 
+    border: 1px white solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: justify;
+}
+.imgg{
+    margin-left: 25%;
+    border: 1px white solid;
+}
+
+.imggg{
+    margin-left: 15%;
+    border: 1px white solid;
+}
+
+.imgggg{
+    margin-left: 21%;
+    border: 1px white solid;
+}
+
+.gimg{
+    margin-left: 0%;
+    border: 1px white solid;
+}
+
+.ggimg{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+    border: 1px white solid;
+}
+
+.gggimg{
+    margin-left: 15%;
+    border: 1px white solid;
+}
+
+footer >  nav > a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    margin-right: 3%;
+    font-size: 25px;
+}
